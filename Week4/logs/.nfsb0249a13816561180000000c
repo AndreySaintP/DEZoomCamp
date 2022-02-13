@@ -3988,3 +3988,65 @@ There are 2 unused configuration paths:
 2022-02-13 19:29:21.048287 (Thread-73): handling status request
 2022-02-13 19:29:21.048674 (Thread-73): 19:29:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2a36cfa9-97d7-4478-904c-ad0b548de454', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9222197730>]}
 2022-02-13 19:29:21.049157 (Thread-73): sending response (<Response 1717 bytes [200 OK]>) to 10.0.31.57
+2022-02-13 19:29:23.791865 (Thread-74): 19:29:23  Partial parsing enabled: 3 files deleted, 4 files added, 0 files changed.
+2022-02-13 19:29:23.792299 (Thread-74): 19:29:23  Partial parsing: added file: taxi_rides_ny://models/core/fact_trips.sql
+2022-02-13 19:29:23.792558 (Thread-74): 19:29:23  Partial parsing: added file: taxi_rides_ny://models/core/schema.yml
+2022-02-13 19:29:23.792727 (Thread-74): 19:29:23  Partial parsing: added file: taxi_rides_ny://models/core/dm_monthly_zone_revenue.sql
+2022-02-13 19:29:23.792889 (Thread-74): 19:29:23  Partial parsing: added file: taxi_rides_ny://models/core/dim_zones.sql
+2022-02-13 19:29:23.793079 (Thread-74): 19:29:23  Partial parsing: deleted file: taxi_rides_ny://models/example/my_second_dbt_model.sql
+2022-02-13 19:29:23.793193 (Thread-74): 19:29:23  Partial parsing: deleted file: taxi_rides_ny://models/example/my_first_dbt_model.sql
+2022-02-13 19:29:23.799618 (Thread-74): 19:29:23  1699: static parser successfully parsed core/fact_trips.sql
+2022-02-13 19:29:23.802170 (Thread-74): 19:29:23  1699: static parser successfully parsed core/dm_monthly_zone_revenue.sql
+2022-02-13 19:29:23.804317 (Thread-74): 19:29:23  1699: static parser successfully parsed core/dim_zones.sql
+2022-02-13 19:29:24.315860 (Thread-75): handling status request
+2022-02-13 19:29:24.316273 (Thread-75): 19:29:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2a36cfa9-97d7-4478-904c-ad0b548de454', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9220926ca0>]}
+2022-02-13 19:29:24.316827 (Thread-75): sending response (<Response 3526 bytes [200 OK]>) to 10.0.28.124
+2022-02-13 19:29:24.352530 (Thread-76): handling status request
+2022-02-13 19:29:24.352916 (Thread-76): 19:29:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2a36cfa9-97d7-4478-904c-ad0b548de454', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f922091ba90>]}
+2022-02-13 19:29:24.353499 (Thread-76): sending response (<Response 3526 bytes [200 OK]>) to 10.0.38.166
+2022-02-13 19:30:43.375239 (Thread-77): handling status request
+2022-02-13 19:30:43.376293 (Thread-77): 19:30:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2a36cfa9-97d7-4478-904c-ad0b548de454', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f922084a730>]}
+2022-02-13 19:30:43.376837 (Thread-77): sending response (<Response 3526 bytes [200 OK]>) to 10.0.38.149
+2022-02-13 19:30:43.486911 (Thread-78): handling status request
+2022-02-13 19:30:43.487289 (Thread-78): 19:30:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2a36cfa9-97d7-4478-904c-ad0b548de454', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f922084a8e0>]}
+2022-02-13 19:30:43.487809 (Thread-78): sending response (<Response 3526 bytes [200 OK]>) to 10.0.26.181
+2022-02-13 19:30:43.674943 (Thread-79): handling cli_args request
+2022-02-13 19:30:43.675312 (Thread-79): 19:30:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2a36cfa9-97d7-4478-904c-ad0b548de454', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9276ff1970>]}
+2022-02-13 19:30:43.675714 (Thread-79): sending response (<Response 749 bytes [200 OK]>) to 10.0.14.71
+2022-02-13 19:30:52.883193 (Thread-80): handling status request
+2022-02-13 19:30:52.883569 (Thread-80): 19:30:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2a36cfa9-97d7-4478-904c-ad0b548de454', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f92680b1880>]}
+2022-02-13 19:30:52.884105 (Thread-80): sending response (<Response 3526 bytes [200 OK]>) to 10.0.44.12
+2022-02-13 19:30:53.016565 (Thread-81): handling status request
+2022-02-13 19:30:53.016931 (Thread-81): 19:30:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2a36cfa9-97d7-4478-904c-ad0b548de454', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f92681e9040>]}
+2022-02-13 19:30:53.017481 (Thread-81): sending response (<Response 3526 bytes [200 OK]>) to 10.0.28.124
+2022-02-13 19:35:33.651018 (Thread-82): handling status request
+2022-02-13 19:35:33.651413 (Thread-82): 19:35:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2a36cfa9-97d7-4478-904c-ad0b548de454', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9277068910>]}
+2022-02-13 19:35:33.651957 (Thread-82): sending response (<Response 3526 bytes [200 OK]>) to 10.0.26.249
+2022-02-13 19:35:33.732927 (Thread-83): handling status request
+2022-02-13 19:35:33.733305 (Thread-83): 19:35:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2a36cfa9-97d7-4478-904c-ad0b548de454', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9277068550>]}
+2022-02-13 19:35:33.733832 (Thread-83): sending response (<Response 3526 bytes [200 OK]>) to 10.0.14.71
+2022-02-13 19:35:47.008256 (Thread-84): 19:35:47  Partial parsing enabled: 3 files deleted, 4 files added, 0 files changed.
+2022-02-13 19:35:47.010331 (Thread-84): 19:35:47  Partial parsing: added file: taxi_rides_ny://models/core/fact_trips.sql
+2022-02-13 19:35:47.010745 (Thread-84): 19:35:47  Partial parsing: added file: taxi_rides_ny://models/core/schema.yml
+2022-02-13 19:35:47.010941 (Thread-84): 19:35:47  Partial parsing: added file: taxi_rides_ny://models/core/dm_monthly_zone_revenue.sql
+2022-02-13 19:35:47.011107 (Thread-84): 19:35:47  Partial parsing: added file: taxi_rides_ny://models/core/dim_zones.sql
+2022-02-13 19:35:47.011334 (Thread-84): 19:35:47  Partial parsing: deleted file: taxi_rides_ny://models/example/my_second_dbt_model.sql
+2022-02-13 19:35:47.011454 (Thread-84): 19:35:47  Partial parsing: deleted file: taxi_rides_ny://models/example/my_first_dbt_model.sql
+2022-02-13 19:35:47.019561 (Thread-84): 19:35:47  1699: static parser successfully parsed core/fact_trips.sql
+2022-02-13 19:35:47.022093 (Thread-84): 19:35:47  1699: static parser successfully parsed core/dm_monthly_zone_revenue.sql
+2022-02-13 19:35:47.024246 (Thread-84): 19:35:47  1699: static parser successfully parsed core/dim_zones.sql
+2022-02-13 19:35:47.521821 (Thread-85): handling status request
+2022-02-13 19:35:47.522224 (Thread-85): 19:35:47  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2a36cfa9-97d7-4478-904c-ad0b548de454', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f92207afd60>]}
+2022-02-13 19:35:47.522784 (Thread-85): sending response (<Response 3526 bytes [200 OK]>) to 10.0.28.124
+2022-02-13 19:35:47.894103 (Thread-86): handling status request
+2022-02-13 19:35:47.894484 (Thread-86): 19:35:47  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2a36cfa9-97d7-4478-904c-ad0b548de454', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f92206d8e50>]}
+2022-02-13 19:35:47.895017 (Thread-86): sending response (<Response 3526 bytes [200 OK]>) to 10.0.38.10
+2022-02-13 19:36:08.386828 (Thread-87): handling status request
+2022-02-13 19:36:08.387208 (Thread-87): 19:36:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2a36cfa9-97d7-4478-904c-ad0b548de454', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f922084adc0>]}
+2022-02-13 19:36:08.387744 (Thread-87): sending response (<Response 3526 bytes [200 OK]>) to 10.0.26.181
+2022-02-13 19:36:08.395330 (Thread-88): handling status request
+2022-02-13 19:36:08.395645 (Thread-88): 19:36:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2a36cfa9-97d7-4478-904c-ad0b548de454', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f922084ab50>]}
+2022-02-13 19:36:08.396159 (Thread-88): sending response (<Response 3526 bytes [200 OK]>) to 10.0.9.33
+2022-02-13 19:36:19.359832 (Thread-89): handling status request
+2022-02-13 19:36:19.360239 (Thread-89): 19:36:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '2a36cfa9-97d7-4478-904c-ad0b548de454', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f92206dd3a0>]}
+2022-02-13 19:36:19.360775 (Thread-89): sending response (<Response 3526 bytes [200 OK]>) to 10.0.31.57
